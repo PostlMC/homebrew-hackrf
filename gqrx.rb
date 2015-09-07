@@ -5,8 +5,8 @@ require 'formula'
 # from: https://github.com/xlfe/homebrew-gnuradio
 
 class Gqrx < Formula
-  homepage 'https://github.com/csete/gqrx'
-  head 'https://github.com/csete/gqrx.git', :branch => 'gr3.6'
+  homepage 'https://github.com/skidmarq/gqrx'
+  head 'https://github.com/skidmarq/gqrx.git'
 
   depends_on 'cmake' => :build
   depends_on 'qt'
